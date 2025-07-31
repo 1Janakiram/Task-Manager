@@ -14,7 +14,7 @@ taskRouter.put('/:id', authorize, updateTask);
 
 taskRouter.delete('/:id', authorize, deleteTask);
 
-//taskRouter.get('/user/:id', (req,res) => res.send({title: 'GET all user tasks'}));  
+
 
 
 export default taskRouter;
