@@ -357,7 +357,7 @@ Authorization: Bearer <token>
 - `401 Unauthorized`: Missing or invalid JWT token
 - `404 Not Found`: Resource not found
 - `409 Conflict`: Duplicate resource
-- `500 Internal Server Error`:
+- `500 Internal Server Error`: Problem with server
 
 ## License
 
