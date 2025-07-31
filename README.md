@@ -28,8 +28,6 @@ Task Manager/
 └── README.md                   # Project documentation
 ```
 
-## How Modularity Helps
-
 - **controllers/**: Separates business logic for users and tasks, making it easy to update or add features.
 - **models/**: Defines data schemas, ensuring consistent data validation and structure.
 - **routes/**: Maps HTTP endpoints to controller functions, keeping routing logic clean and isolated.
