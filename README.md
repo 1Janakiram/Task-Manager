@@ -49,6 +49,12 @@ Task Manager/
 
 ### Installation
 
+## 🐳 Running with Docker
+1. Build the image: 
+   `docker build -t task-manager-api .`
+2. Run the container:
+   `docker run -p 5500:5500 --env-file .env task-manager-api`
+
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/1Janakiram/task-manager.git
